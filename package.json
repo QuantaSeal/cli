@@ -1,0 +1,30 @@
+{
+  "name": "@quantaseal/cli",
+  "version": "1.1.0",
+  "description": "QuantaSeal CLI - Quantum-safe encryption from the command line",
+  "main": "bin/quantaseal.js",
+  "bin": {
+    "quantaseal": "bin/quantaseal.js"
+  },
+  "keywords": [
+    "quantum-safe",
+    "encryption",
+    "post-quantum",
+    "ML-KEM-768",
+    "security",
+    "cli"
+  ],
+  "author": "Lokeshwaran Ramu <support@quantaseal.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lokeshwaranramu/quantaseal.git",
+    "directory": "sdk/cli"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/"
+  ]
+}
